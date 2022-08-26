@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap-star-rating": "^4.1.2",
+    "cors": "^2.8.5",
+    "rickmortyapi": "^1.0.0"
+  }
+}

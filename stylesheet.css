@@ -1,0 +1,163 @@
+
+
+
+.logo-header {
+  
+  width: 180px;
+  display: flex;
+  align-content: center;
+  padding-bottom: 20px;
+}
+
+.navbar-brand{
+
+color: white;
+padding-left: 10px;
+}
+
+.nav-font {
+  font-family: 'Staatliches';
+  font-size: 30px;
+}
+
+.yupper {
+  color: white;
+}
+
+.yessir {
+  color: white;
+}
+
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20, 167, 62, 1) 0%, rgba(102, 247, 113, 1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+p {
+  color:black;
+  font-family: 'Staatliches';
+}
+
+#name {
+  padding-left: 93px;
+  font-size: 25px;
+}
+
+.btn {
+  width: 40%;
+  
+}
+
+#navlist {
+  padding-left: 40px;
+  padding-top: 80px;
+  width: 25%;
+  font-family: "staatliches";
+  color: black;
+}
+
+
+h5:hover {
+  color: red
+}
+
+
+.heart-like-button {
+  position: relative;
+  width: 160px;
+  height: 60px;
+}
+
+.heart-like-button:before {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  width: 30px;
+  height: 47px;
+  border-radius: 40px 40px 0 0;
+  background-color: #574136;
+  content: "";
+  cursor: pointer;
+  transition: background .4s;
+}
+
+.heart-like-button:after {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  width: 30px;
+  height: 47px;
+  border-radius: 40px 40px 0 0;
+  background-color: #574136;
+  content: "";
+  cursor: pointer;
+  transition: background .4s;
+}
+
+h1 {
+  margin: 0;
+  color: #574136;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.heart-like-button.liked::before,
+.heart-like-button.liked::after {
+  background-color: #d65076;
+}
+
+.heart-like-button.liked {
+  animation: liked .4s ease;
+}
+
+@keyframes liked {
+  0% {
+    transform: scale(.8);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
