@@ -1,6 +1,7 @@
 ## Rick and Morty Fandom
  
- ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/103458131/204698033-d64fbb63-e200-4299-a6ce-fc0908e799f8.gif)
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/103458131/204699141-d465f1a9-6d72-4161-93db-d29f3a8ee7e9.gif)
+
 
  
 ## Introduction
